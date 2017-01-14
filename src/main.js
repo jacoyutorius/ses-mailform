@@ -1,11 +1,13 @@
 import Vue from 'vue'
-// import App from './App.vue'
 import Mailform from "./Mailform.vue"
 
-// new Vue({
-//   el: '#app',
-//   render: h => h(App)
-// })
+const AWS = require("aws-sdk");
+AWS.config.update({
+  accessKeyId: "",
+  secretAccessKey: "",
+  region: "us-east-1"
+})
+
 new Vue({
   el: '#mailform',
   render: h => h(Mailform)
