@@ -55,13 +55,7 @@ module.exports = {
   performance: {
     hints: false
   },
-  devtool: '#eval-source-map',
-  plugins: [
-    new Dotenv({
-      path: './.env', // if not simply .env
-      safe: false // lets load the .env.example file as well 
-    })
-  ]
+  devtool: '#eval-source-map'
 }
 
 if (process.env.NODE_ENV === 'production') {
