@@ -1,6 +1,8 @@
 # ses-mailform
 
-> Vue.js + AmazonSES Mailform
+Vue.js + AmazonSES でメールフォーム.
+
+![](https://s3-ap-northeast-1.amazonaws.com/dropper-apps/SES_Mailform.png)
 
 ## Build Setup
 
@@ -14,5 +16,3 @@ npm run dev
 # build for production with minification
 npm run build
 ```
-
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
